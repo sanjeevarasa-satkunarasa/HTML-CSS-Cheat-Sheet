@@ -1,0 +1,27 @@
+*{ /*This affects all elements*/
+    color: black;
+}
+
+p { /* Affects all paragraph elements*/
+    font-family: "Times New Roman", Helvetica, sans-serif; /* This creates fallbacks if the font isn't supported by the browser */
+}
+
+#color{ /* ids overwrite everything*/
+    color:blue;
+}
+
+#font_size{
+    font-size: 10px;
+}
+
+#font_weight{
+    font-weight: bold;
+}
+
+#text_align{
+    text-align: center;
+}
+
+#background_color{
+    background-color:khaki;
+}
